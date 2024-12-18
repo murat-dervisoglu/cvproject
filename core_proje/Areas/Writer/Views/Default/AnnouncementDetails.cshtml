@@ -1,0 +1,20 @@
+﻿@model entitylayer.concrete.Announcement
+@{
+    ViewData["Title"] = "AnnouncementDetails";
+    Layout = "~/Views/Shared/_WriterLayout.cshtml";
+}
+
+<form class="form-group">
+    <h4>Duyuru Detayları</h4>
+    <br />
+    
+    @Html.Label("ID")
+    @Html.TextBoxFor(x =>x.ID, new { @readonly="readonly", @class="form-control"})
+    @Html.Label("Başlık")
+    @Html.TextBoxFor(x=>x.Title, new { @readonly="readonly", @class="form-control"})
+    @Html.Label("İçerik")
+    @Html.TextAreaFor(x=>x.Conntent,10,3, new { @readonly="readonly", @class="form-control"})
+	<br />
+
+    <button type="button" class="btn btn-google" onclick="history.back()">Geri</button>
+</form>

@@ -1,0 +1,46 @@
+﻿@using entitylayer.concrete
+@model List<testimonial>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<div class="row ">
+    <div class="col-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Referanslar</h4>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th> # </th>
+                                <th> Ad </th>
+                                <th> Sektör </th>
+                                <th> Ünvan </th>
+                                <th> Yorumu Gör </th>
+                                <th> Sil </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        <img src="@item.imageUrl" alt="Görsel" style="width: 45px; height: 45px;"/>
+								    </td>
+                                    <td> @item.clientname </td>
+                                    <td> @item.company </td>
+                                    <td> @item.Title </td>
+                                    <td> <a href="/Testimonial/EditTestimonial/@item.testimonialID" class="btn btn-outline-warning">Yorumu Gör</a> </td>
+                                    <td> <a href="/Testimonial/DeleteTestimonial/@item.testimonialID" class="btn btn-outline-danger" onclick="return confirm('Silmek istediğinize emin misiniz?');">Sil</a> </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <a href="/Testimonial/AddTestimonial/" class="btn btn-primary">Yeni Deneyim Ekle</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,30 @@
+﻿@model entitylayer.concrete.skill
+@{
+    ViewData["Title"] = "Addskill";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<div class="card-header border-0">
+    <h4 class="mb-0">Yeni Bir Yetenek Ekleyin</h4>
+</div>
+@using (Html.BeginForm("Addskill", "SkillController1", FormMethod.Post))
+{
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">            
+            <div class="card-body">
+                <form class="forms-sample">
+                    <div class="form-group">
+                        <label>Beceri</label>
+                        @Html.TextBoxFor(x =>x.title , new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Beceri Oranı</label>
+                        @Html.TextBoxFor(x => x.value, new { @class = "form-control" })
+                    </div>                    
+                    <button type="submit" class="btn btn-primary mr-2">Kaydet</button>
+                    <button type="button" class="btn btn-light" onclick="history.back()">Geri</button
+                </form>
+            </div>
+        </div>
+    </div>
+}

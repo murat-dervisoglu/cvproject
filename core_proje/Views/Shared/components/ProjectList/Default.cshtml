@@ -1,0 +1,41 @@
+﻿@using entitylayer.concrete
+@model List<portfolio>
+
+<div class="row ">
+    <div class="col-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Proje Listesi</h4>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th> # </th>
+                                <th>Görsel</th>
+                                <th> Proje </th>
+                                <th> Adres </th>
+                                <th> Fiyat</th>
+                                <th> Tamamlanma Oranı</th>
+                                <th> Proje Sayfası</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td> @item.portfolioID </td>
+                                    <td> <img src="@item.imageUrl" /></td>
+                                    <td> @item.name </td>
+                                    <td> <a href="@item.projectrl">Adrese Git</a> </td>
+                                    <td> @item.price </td>
+                                    <td> @item.value% </td>
+                                    <td> <a href="/Portfolio/Index/" class="btn btn-outline-primary">Sayfaya Git</a></td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

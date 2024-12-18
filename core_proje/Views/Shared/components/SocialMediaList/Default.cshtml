@@ -1,0 +1,13 @@
+﻿@using entitylayer.concrete
+@model List<socialmedia>
+
+<div class="social-nav" data-aos="fade-up" data-aos-delay="200">
+    <nav role="navigation">
+        <ul class="nav justify-content-left">
+            @foreach(var item in Model)
+            {
+            <li class="nav-item"><a class="nav-link" href="@item.url" title="@item.name"><i class="@item.icon"></i><span class="menu-title sr-only">@item.name</span></a></li>
+			}
+        </ul>
+    </nav>
+</div>                   

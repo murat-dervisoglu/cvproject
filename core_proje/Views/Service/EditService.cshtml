@@ -1,0 +1,30 @@
+﻿@model entitylayer.concrete.service
+@{
+    ViewData["Title"] = "EditService";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+<div class="card-header border-0">
+    <h4 class="mb-0">Bir Hizmetinizi Güncelleyin</h4>
+</div>
+@using (Html.BeginForm("EditService", "Service", FormMethod.Post))
+{                   
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">            
+            <div class="card-body">
+                <form class="forms-sample">
+                    @Html.HiddenFor(x => x.serviceID)
+                    <div class="form-group">
+                        <label>Hizmet</label>
+                        @Html.TextBoxFor(x => x.title, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Hizmet Görseli</label>
+                        @Html.TextBoxFor(x => x.imageUrl, new { @class = "form-control" })
+                    </div>                    
+                    <button type="submit" class="btn btn-primary mr-2">Kaydet</button>
+                    <button type="button" class="btn btn-light" onclick="history.back()">Geri</button
+                </form>
+            </div>
+        </div>
+    </div>
+}

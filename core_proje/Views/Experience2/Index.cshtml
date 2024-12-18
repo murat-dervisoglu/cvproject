@@ -1,0 +1,176 @@
+﻿@using entitylayer.concrete
+@model List<experience>
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<div class="row">
+	<div class="p-2">
+		<button type="button" id="btngetlistall" class="btn btn-outline-twitter">Verileri Getir</button>
+		<button type="button" id="btnid" class="btn btn-outline-primary">ID Kullanarak Getir</button>
+		<button type="button" id="btnadd" class="btn btn-outline-facebook">Yeni Veri Kaydet </button>
+		<button type="button" id="btnupdate" class="btn btn-outline-warning">Güncelle </button>
+		<button type="button" id="btndelete" class="btn btn-outline-danger">Sil </button>
+	</div>
+</div>
+<div class="p-2" id="listexperience">
+
+</div>
+<br />
+<div class="p-2" id="listbyidexperience">
+
+</div>
+<br />
+<div class="row">
+	<div class="col-md-6">
+		<h5>Yeni Kaydet</h5>
+		<input type="text" class="form-control" id="inpname" placeholder="Başlık" />
+		<br />
+		<input type="text" class="form-control" id="inpdate" placeholder="Tarih" />
+		<br />
+		<input type="text" class="form-control" id="inpimage" placeholder="Görsel Yolu" />
+		<br />
+		<input type="text" class="form-control" id="inpdescription" placeholder="Açıklama" />
+		<br />
+	</div>
+	<br />
+	<div class="col-md-6">
+		<h5>Güncelle</h5>		
+		<input type="text" class="form-control" id="inpupid" placeholder="Güncellemek İstenen Veri ID" />
+		<br />
+		<input type="text" class="form-control" id="inpupname" placeholder="Başlık" />
+		<br />
+		<input type="text" class="form-control" id="inpupdate" placeholder="Tarih" />
+		<br />
+		<input type="text" class="form-control" id="inpupimage" placeholder="Görsel Yolu" />
+		<br />
+		<input type="text" class="form-control" id="inpupdescription" placeholder="Açıklama" />
+		<br />
+	</div>
+</div>
+<br />
+<div class="row">
+	<div class="col-md-6">
+		<h5>Id Numarasına Göre Getir</h5>
+		<input type="text" class="form-control" id="inpid" placeholder="Id numarası" />
+		<br />
+	</div>
+	<br />
+	<div class="col-md-6">
+		<h5>Sil</h5>
+		<input type="text" class="form-control" id="inpexpid" placeholder="Id numarası" />
+		<br />
+	</div>
+</div>
+
+@section Scripts
+{
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$("#btngetlistall").click(function () {
+			$.ajax({
+				contentType: "application/json",
+				dataType: "json",
+				type: "GET",
+				url: "/Experience2/ListExperience/",
+
+				success: function (funk) {
+					let values = JSON.parse(funk);
+					console.log(values);
+
+					let htmlst = "<table class=table table-bordered> <tr> <th> ID </th> <th> Başlık </th> <th> Tarih </th> </tr>";
+					$.each(values, (index, value) => {
+						htmlst += `<tr> <td>${value.experienceId}</td> <td>${value.name}</td> <td>${value.date}</td> </tr>`
+					});
+					htmlst += "</table>";
+					$("#listexperience").html(htmlst);
+				}
+			});
+		});
+
+		$("#btnadd").click(function () {
+			let values = {
+				name: $("#inpname").val(),
+				date: $("#inpdate").val(),
+				imageUrl: $("#inpimage").val(),
+				description: $("#inpdescription").val(),
+			};
+
+			$.ajax({
+				type: "Post",
+				url: "/Experience2/AddExperience/",
+				data: values,
+				success: function (fonk) {
+					let result = jQuery.parseJSON(fonk);
+					alert(result.name + " İşlem Başarılı.");
+				}
+			});
+		});
+
+		$("#btnid").click(x => {
+			let id = $("#inpid").val();
+
+			$.ajax({
+				contentType: "application/json",
+				dataType: "json",
+				type: "Get",
+				url: "/Experience2/GetByID/",
+				data: { experienceId: id },
+				success: function (fonks) {
+					let result = jQuery.parseJSON(fonks);
+					console.log(result);
+					let htmlstr = `<table class=table table-hover>
+										<tr>
+											<th>Deneyim ID</th>
+											<td>${result.experienceId}</td>
+										</tr>
+										<tr>
+											<th>Başlık</th>
+											<td>${result.name}</td>
+									</table>`;
+					$("#listbyidexperience").html(htmlstr);
+				}
+			});
+		});
+
+		$("#btndelete").click(x => {
+			let id = $("#inpexpid").val();
+			$.ajax({
+				url: "/Experience/DeleteExperience/" + id,
+				type: "post",
+				contentType: "application/json",
+				dataType: "json",
+				success: function (fonksiyon) {
+					loadData();
+				}
+			});
+		});
+
+		$("#btnupdate").click(function () {
+			let value = {
+				experienceId: $("#inpupid").val(),
+				name: $("#inpupname").val(),
+				date: $("#inpupdate").val(),
+				imageUrl: $("#inpupimage").val(),
+				description: $("#inpupdescription").val(),
+			};
+			$.ajax({
+				type: "Post",
+				url: "/Experience2/UpdateExperience/",
+				data: JSON.stringify(value),
+				contentType: "application/json; charset=utf-8",
+				dataType: "json",
+				success: function (funk4) {
+					alert("Veriler başarılı bir şekilde güncellendi.");
+				},
+				error: function (xhr, status, error) {
+					console.error("Hata oluştu:", status, error);
+				}
+			});
+		});
+
+	</script>
+}
+<script src="~/wwwroot/lib/jquery/dist/jquery.js/"></script>

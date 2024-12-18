@@ -1,0 +1,41 @@
+﻿@model entitylayer.concrete.testimonial
+@{
+    ViewData["Title"] = "EditTestimonial";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+@using (Html.BeginForm("EditTestimonial", "Testimonial",FormMethod.Post))
+{
+    @Html.HiddenFor(x => x.testimonialID)
+   <div class="col-12 grid-margin stretch-card">
+        <div class="card">            
+            <div class="card-body">
+                <form class="forms-sample">
+                    <div class="form-group">
+                        <label>Fotoğraf</label>
+                        @Html.TextBoxFor(x =>x.imageUrl , new { @class = "form-control" })
+                    </div>
+
+                    <div class="form-group">
+                        <label>Ad-Soyad</label>
+                        @Html.TextBoxFor(x => x.clientname, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Sektör</label>
+                        @Html.TextBoxFor(x => x.company, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Ünvan</label>
+                        @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+                    </div> 
+                    <div class="form-group">
+                        <label>Yorum</label>
+                        @Html.TextAreaFor(x => x.comment,8,4, new { @class = "form-control" })
+                    </div>                    
+                    <button type="submit" class="btn btn-primary mr-2">Kaydet</button>
+                    <button type="button" class="btn btn-light" onclick="history.back()">Geri</button
+                </form>
+            </div>
+        </div>
+    </div>
+}

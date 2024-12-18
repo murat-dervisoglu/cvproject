@@ -1,0 +1,68 @@
+﻿@model core_proje.Areas.Writer.Models.UserEditViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_WriterLayout.cshtml";
+}
+<div class="col-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Profili Düzenle</h4>
+            <form class="forms-sample" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="exampleInputName1">İsim</label>
+                    <input type="text" asp-for="Name" class="form-control" id="exampleInputName1" placeholder="İsim">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputName1">Soyisim</label>
+                    <input type="text" asp-for="Surname" class="form-control" id="exampleInputName1" placeholder="Soyisim">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword4">Şifre</label>
+                    <div class="input-group">
+                        <input type="password" asp-for="Password" class="form-control" id="exampleInputPassword4" placeholder="Şifre">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" onclick="togglePasswordVisibility('exampleInputPassword4', 'togglePasswordIcon1')">
+                                <i class="mdi mdi-eye" id="togglePasswordIcon1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputPassword5">Şifre Tekrar</label>
+                    <div class="input-group">
+                        <input type="password" asp-for="PasswordComfirm" class="form-control" id="exampleInputPassword5" placeholder="Şifre Tekrar">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" onclick="togglePasswordVisibility('exampleInputPassword5', 'togglePasswordIcon2')">
+                                <i class="mdi mdi-eye" id="togglePasswordIcon2"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    function togglePasswordVisibility(inputId, iconId) {
+                        var passwordInput = document.getElementById(inputId);
+                        var icon = document.getElementById(iconId);
+                        if (passwordInput.type === "password") {
+                            passwordInput.type = "text";
+                            icon.classList.remove("mdi-eye");
+                            icon.classList.add("mdi-eye-off");
+                        } else {
+                            passwordInput.type = "password";
+                            icon.classList.remove("mdi-eye-off");
+                            icon.classList.add("mdi-eye");
+                        }
+                    }
+                </script>
+                <div class="form-group">
+                    <label>Resim Seç</label>
+                    <input type="file" asp-for="Picture">
+                </div>
+                <button type="submit" class="btn btn-primary mr-2">Güncelle</button>
+                <button type="button" class="btn btn-light" onclick="history.back()">Geri</button
+            </form>
+        </div>
+    </div>
+</div>
+

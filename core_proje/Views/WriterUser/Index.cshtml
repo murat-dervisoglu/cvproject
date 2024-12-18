@@ -1,0 +1,58 @@
+﻿@using entitylayer.concrete
+@model List<WriterUser>
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+
+@* AJAX İLE YAZPILMAKTAN VAZGEÇİLEN PROGRAM *@
+
+
+<div class=" col-md-6">
+    <div class="p-2">
+        <button type="button" id="getlistall" class="btn btn-outline-twitter">Verileri Getir</button>
+        <button type="button" id="adduser" class="btn btn-outline-facebook">Kaydet </button>
+    </div>
+</div>
+
+<h4 class="text-center">Yazar Listesi</h4>
+<div class="p-2" id="listuser">
+
+</div>
+<br />
+<div class="col-md-2">
+    <input type="text" class="form-control" id="inpname" placeholder="Ad" />
+    <br />
+    <input type="text" class="form-control" id="inpsurname" placeholder="Soyad" />
+    <br />
+    <input type="text" class="form-control" id="inpusername" placeholder="Kullanıcı adı" />
+    <br />
+    <input type="text" class="form-control" id="inpmail" placeholder="E-mail" />
+    <br />
+</div>
+
+
+@section Scripts
+{
+<script>
+    $("#getlistall").click(function() {
+        $.ajax({
+            contentType: "application/json",
+            dataType: "json",
+            type: "Get",
+            URL: "/WriterUser/ListUser/",
+
+            succes: function (funk) {
+                let ussers = JQuery.ParseJSON(funk)
+                console.log(users);
+            }
+        });
+    });
+</script>
+}
+
+
+<script src="c:\users\murat\documents\visual studio 2022\code snippets\udemy\core_proje\wwwroot\lib\jquery\dist\jquery.js"></script>

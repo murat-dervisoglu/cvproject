@@ -1,0 +1,115 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_WriterLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-12 grid-margin">
+        <div class="row">
+            <div class="col-12 col-xl-8 mb-4 mb-xl-0">
+                <h3 class="font-weight-bold">Hoşgeldin @ViewBag.v</h3>
+				<h6 class="font-weight-normal mb-0">Ana sayfa.</h6>
+                
+            </div>
+            <div class="col-12 col-xl-4">
+                <div class="justify-content-end d-flex">
+                    <div class="dropdown flex-md-grow-1 flex-xl-grow-0">
+                        <button class="btn btn-sm btn-light bg-white dropdown-toggle" type="button" id="dropdownMenuDate2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            <i class="mdi mdi-calendar"></i> @DateTime.Now.ToShortTimeString()
+                        </button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card tale-bg">
+            <div class="card-people mt-auto">
+                <img src="~/skydash/images/dashboard/people.svg" alt="people">
+                <div class="weather-info">
+                    <div class="d-flex">
+                        <div class="ml-2">
+                            <h4 class="location font-weight-normal">İstanbul</h4>
+                            <h6 class="font-weight-normal">Türkiye</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 grid-margin transparent">
+        <div class="row">
+
+            <div class="col-md-6 mb-4 stretch-card transparent">
+                <div class="card card-tale">
+                    <a href="/Writer/Message/RecieverMessage" class="text-decoration-none">
+                        <div class="card-body" style="color: white;">
+                            <p class="mb-4">Gelen Mesajlar</p>
+                            <p class="fs-30 mb-2">@ViewBag.v1</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 mb-4 stretch-card transparent">
+                <div class="card card-dark-blue">
+                    <a href="/Writer/Message/SenderMessage" class="text-decoration-none">
+                        <div class="card-body" style="color: white;">
+                        <p class="mb-4">Gönderilen Mesajlar</p>
+                        <p class="fs-30 mb-2">@ViewBag.v4</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class="col-md-6 mb-4 mb-lg-0 stretch-card transparent">
+                <div class="card card-light-blue">
+                    <a href="/Writer/Default/Index" class="text-decoration-none">
+                        <div class="card-body" style="color: white;">
+                        <p class="mb-4">Duyuru Sayısı</p>
+                        <p class="fs-30 mb-2">@ViewBag.v2</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6 stretch-card transparent">
+                <div class="card card-light-danger">
+                    <div class="card-body" style="color: white;">
+                        <p class="mb-4">Toplam Kullanıcı</p>
+                        <p class="fs-30 mb-2">@ViewBag.v3</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <p class="card-title">Kullanıcı Ekranı </p>
+                <p class="font-weight-500">Kullanıcılar olarak bu ekranda mesaj, duyuru gibi iletiler alabilirsiniz. Ayrıca destek, talep, görüş ve öneriler için bizimle iletişim kurabilirsiniz.</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <p class="card-title">Yönetici Ekranı</p>
+                </div>
+                <p class="font-weight-500">Uygulama yöneticileri olarak bu ekranda sitenin her türlü güncellemelerini, duyuruları, sizden gelen her türlü taleplerinize geri dönüş yaptığımız ekrandır. </p>
+            </div>
+        </div>
+    </div>
+</div>

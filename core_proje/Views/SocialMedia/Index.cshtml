@@ -1,0 +1,46 @@
+﻿@using entitylayer.concrete
+@model List<socialmedia>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Sosyal Medya Hesapları</h4>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Platform</th>
+							<th>Güncelle</th>
+							<th>Sil</th>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int a = 1;
+                        }
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@a</td>
+                                <td>@item.name</td>
+								<td><a href="/SocialMedia/EditSocialMedia/@item.socialmediaID" class="btn btn-outline-warning">Güncelle</a></td>
+								<td><a href="/SocialMedia/DeleteSocialMedia/@item.socialmediaID" class="btn btn-outline-danger" onclick="return confirm('Silmek istediğinize emin misiniz?');">Sil</a></td>
+                                
+                            </tr>
+                            a++;
+                        }
+                    </tbody>
+                </table>
+                <br />
+                <a href="/SocialMedia/AddSocialMedia/" class="btn btn-primary">Yeni Hesap Ekle</a>
+            </div>
+        </div>
+    </div>
+</div>

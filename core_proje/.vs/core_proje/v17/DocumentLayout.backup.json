@@ -1,0 +1,469 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\areas\\writer\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:areas\\writer\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\areas\\writer\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:areas\\writer\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\areas\\writer\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:areas\\writer\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\areas\\writer\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:areas\\writer\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\areas\\writer\\models\\userregisterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:areas\\writer\\models\\userregisterviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F576A022-BD2E-41E7-ACD5-9186A5A3D3A0}|..\\dataaccesslayer\\dataaccesslayer.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\dataaccesslayer\\migrations\\20241102092110_mig_identity_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\controllers\\errorpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:controllers\\errorpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\areas\\writer\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:areas\\writer\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\views\\portfolio\\addportfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:views\\portfolio\\addportfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAD9E7F-8FBC-4657-9B02-3F8643FD40FD}|..\\businesslayer\\businesslayer.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\businesslayer\\validationrules\\portfoliovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\views\\experience\\editexperience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:views\\experience\\editexperience.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\areas\\writer\\views\\message\\sendermessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:areas\\writer\\views\\message\\sendermessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\areas\\writer\\views\\default\\footerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:areas\\writer\\views\\default\\footerpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\areas\\writer\\views\\default\\headpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:areas\\writer\\views\\default\\headpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\views\\admin\\navigationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:views\\admin\\navigationpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\views\\admin\\partialfooter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:views\\admin\\partialfooter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\views\\admin\\partialhead.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:views\\admin\\partialhead.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\views\\admin\\partialnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:views\\admin\\partialnavbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\views\\admin\\partialsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:views\\admin\\partialsidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\views\\experience\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:views\\experience\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\wwwroot\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:wwwroot\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAD9E7F-8FBC-4657-9B02-3F8643FD40FD}|..\\businesslayer\\businesslayer.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\businesslayer\\concrete\\experiencemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CAD9E7F-8FBC-4657-9B02-3F8643FD40FD}|..\\businesslayer\\businesslayer.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\businesslayer\\abstract\\iexperienceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|c:\\users\\murat\\documents\\visual studio 2022\\code snippets\\udemy\\core_proje\\viewcomponents\\experience\\experiencelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A60B867C-E174-4BCE-9AB3-4548D9B0CB01}|core_proje.csproj|solutionrelative:viewcomponents\\experience\\experiencelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 283,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T07:35:45.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Views\\Register\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Writer\\Views\\Register\\Index.cshtml",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Views\\Register\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Writer\\Views\\Register\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAGUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-17T07:30:45.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "Areas\\Writer\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "Areas\\Writer\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwBUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T07:30:16.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserRegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Models\\UserRegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Areas\\Writer\\Models\\UserRegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Models\\UserRegisterViewModel.cs",
+              "RelativeToolTip": "Areas\\Writer\\Models\\UserRegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T07:31:05.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241102092110_mig_identity_test.cs",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\dataaccesslayer\\Migrations\\20241102092110_mig_identity_test.cs",
+              "RelativeDocumentMoniker": "..\\dataaccesslayer\\Migrations\\20241102092110_mig_identity_test.cs",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\dataaccesslayer\\Migrations\\20241102092110_mig_identity_test.cs",
+              "RelativeToolTip": "..\\dataaccesslayer\\Migrations\\20241102092110_mig_identity_test.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAQwOIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T16:25:31.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Areas\\Writer\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Areas\\Writer\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwBUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T07:44:27.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Writer\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Writer\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T11:29:33.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorPageController.cs",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Controllers\\ErrorPageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ErrorPageController.cs",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Controllers\\ErrorPageController.cs",
+              "RelativeToolTip": "Controllers\\ErrorPageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T13:02:49.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddPortfolio.cshtml",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Views\\Portfolio\\AddPortfolio.cshtml",
+              "RelativeDocumentMoniker": "Views\\Portfolio\\AddPortfolio.cshtml",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Views\\Portfolio\\AddPortfolio.cshtml",
+              "RelativeToolTip": "Views\\Portfolio\\AddPortfolio.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBZwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-14T11:47:20.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PortfolioController.cs",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Controllers\\PortfolioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PortfolioController.cs",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Controllers\\PortfolioController.cs",
+              "RelativeToolTip": "Controllers\\PortfolioController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwBwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:46:25.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PortfolioValidator.cs",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\businesslayer\\validationrules\\PortfolioValidator.cs",
+              "RelativeDocumentMoniker": "..\\businesslayer\\validationrules\\PortfolioValidator.cs",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\businesslayer\\validationrules\\PortfolioValidator.cs",
+              "RelativeToolTip": "..\\businesslayer\\validationrules\\PortfolioValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T11:46:14.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "Areas\\Writer\\Controllers\\MessageController.cs",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "Areas\\Writer\\Controllers\\MessageController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAnwDUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T10:38:36.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FooterPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Views\\Default\\FooterPartial.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Writer\\Views\\Default\\FooterPartial.cshtml",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Views\\Default\\FooterPartial.cshtml",
+              "RelativeToolTip": "Areas\\Writer\\Views\\Default\\FooterPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T12:20:31.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HeadPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Views\\Default\\HeadPartial.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Writer\\Views\\Default\\HeadPartial.cshtml",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Views\\Default\\HeadPartial.cshtml",
+              "RelativeToolTip": "Areas\\Writer\\Views\\Default\\HeadPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T12:20:28.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NavigationPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Views\\Admin\\NavigationPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\NavigationPartial.cshtml",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Views\\Admin\\NavigationPartial.cshtml",
+              "RelativeToolTip": "Views\\Admin\\NavigationPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T12:20:20.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PartialFooter.cshtml",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Views\\Admin\\PartialFooter.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\PartialFooter.cshtml",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Views\\Admin\\PartialFooter.cshtml",
+              "RelativeToolTip": "Views\\Admin\\PartialFooter.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T12:20:15.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EditExperience.cshtml",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Views\\Experience\\EditExperience.cshtml",
+              "RelativeDocumentMoniker": "Views\\Experience\\EditExperience.cshtml",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Views\\Experience\\EditExperience.cshtml",
+              "RelativeToolTip": "Views\\Experience\\EditExperience.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBZwCEAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T08:13:24.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SenderMessage.cshtml",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Views\\Message\\SenderMessage.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Writer\\Views\\Message\\SenderMessage.cshtml",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Areas\\Writer\\Views\\Message\\SenderMessage.cshtml",
+              "RelativeToolTip": "Areas\\Writer\\Views\\Message\\SenderMessage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T12:20:57.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PartialHead.cshtml",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Views\\Admin\\PartialHead.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\PartialHead.cshtml",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Views\\Admin\\PartialHead.cshtml",
+              "RelativeToolTip": "Views\\Admin\\PartialHead.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T12:20:11.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PartialNavbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Views\\Admin\\PartialNavbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\PartialNavbar.cshtml",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Views\\Admin\\PartialNavbar.cshtml",
+              "RelativeToolTip": "Views\\Admin\\PartialNavbar.cshtml",
+              "ViewState": "AgIAAMYAAAAAAAAAACBjwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T12:20:01.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PartialSideBar.cshtml",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Views\\Admin\\PartialSideBar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\PartialSideBar.cshtml",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Views\\Admin\\PartialSideBar.cshtml",
+              "RelativeToolTip": "Views\\Admin\\PartialSideBar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T12:19:47.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ExperienceList.cs",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\ViewComponents\\Experience\\ExperienceList.cs",
+              "RelativeDocumentMoniker": "ViewComponents\\Experience\\ExperienceList.cs",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\ViewComponents\\Experience\\ExperienceList.cs",
+              "RelativeToolTip": "ViewComponents\\Experience\\ExperienceList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T07:57:32.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ExperienceManager.cs",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\businesslayer\\concrete\\ExperienceManager.cs",
+              "RelativeDocumentMoniker": "..\\businesslayer\\concrete\\ExperienceManager.cs",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\businesslayer\\concrete\\ExperienceManager.cs",
+              "RelativeToolTip": "..\\businesslayer\\concrete\\ExperienceManager.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwBYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T07:28:14.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IExperienceService.cs",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\businesslayer\\Abstract\\IExperienceService.cs",
+              "RelativeDocumentMoniker": "..\\businesslayer\\Abstract\\IExperienceService.cs",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\businesslayer\\Abstract\\IExperienceService.cs",
+              "RelativeToolTip": "..\\businesslayer\\Abstract\\IExperienceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T07:57:02.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\wwwroot\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\index.html",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\wwwroot\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\index.html",
+              "RelativeToolTip": "wwwroot\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAACBjwAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-02T12:22:37.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Views\\Experience\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Experience\\Index.cshtml",
+              "ToolTip": "C:\\Users\\murat\\Documents\\Visual Studio 2022\\Code Snippets\\udemy\\core_proje\\Views\\Experience\\Index.cshtml",
+              "RelativeToolTip": "Views\\Experience\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAACBjwCMAAADIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T16:23:05.362Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 263,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1524,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1524,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

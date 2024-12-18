@@ -1,0 +1,69 @@
+﻿@model entitylayer.concrete.portfolio
+@{
+    ViewData["Title"] = "AddPortfolio";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+<div class="card-header border-0">
+    <h4 class="mb-0">Bir Proje Ekleyin</h4>
+</div>
+@using (Html.BeginForm("AddPortfolio", "Portfolio", FormMethod.Post))
+{
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">            
+            <div class="card-body">
+                <form class="forms-sample">
+                    <div class="form-group">
+                        <label>Proje</label>
+                        @Html.TextBoxFor(x => x.name, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Proje Görseli</label>
+                        @Html.TextBoxFor(x => x.imageUrl, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Proje Görseli</label>
+                        @Html.TextBoxFor(x => x.imageUrl2, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Platform</label>
+                        @Html.TextBoxFor(x => x.platform, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Proje Adresi</label>
+                        @Html.TextBoxFor(x => x.projectrl, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Ücret</label>
+                        @Html.TextBoxFor(x => x.price, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Tamamlanma Durumu</label>
+                        @Html.TextBoxFor(x => x.satutus, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Tamamlanma Oranı</label>
+                        @Html.TextBoxFor(x => x.value, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Resim 1</label>
+                        @Html.TextBoxFor(x => x.image1, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Resim 2</label>
+                        @Html.TextBoxFor(x => x.image2, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Resim 3</label>
+                        @Html.TextBoxFor(x => x.image3, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label>Resim 4</label>
+                        @Html.TextBoxFor(x => x.image4, new { @class = "form-control" })
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Kaydet</button>
+                    <button type="button" class="btn btn-light" onclick="history.back()">Geri</button
+                </form>
+            </div>
+        </div>
+    </div>
+}

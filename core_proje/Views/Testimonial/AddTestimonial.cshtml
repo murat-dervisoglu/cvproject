@@ -1,0 +1,43 @@
+﻿@model entitylayer.concrete.testimonial
+@{
+    ViewData["Title"] = "AddTestimonial";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+@using (Html.BeginForm("AddTestimonial", "Testimonial", FormMethod.Post))
+{
+    <div class="card-header border-0">
+        <h4 class="mb-0">Bir Referans Ekleyin</h4>
+    </div>
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <form class="forms-sample">
+                    <div class="form-group">
+                        <label>Referans Ad-Soyad</label>
+                        <input type="text" class="form-control" name="clientname">
+                    </div>
+                    <div class="form-group">
+                        <label>Şirket</label>
+                        <input type="text" class="form-control" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label>Görev</label>
+                        <input type="text" class="form-control" name="Title">
+                    </div>
+                    <div class="form-group">
+                        <label>Görsel</label>
+                        <input type="text" class="form-control" name="imageUrl">
+                    </div>
+                    <div class="form-group">
+                        <label>Yorumu</label>
+                        <textarea class="form-control" name="comment" rows="6"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Kaydet</button>
+                    <button type="button" class="btn btn-dark" onclick="history.back()">Geri</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+}

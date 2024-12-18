@@ -1,0 +1,19 @@
+﻿@model entitylayer.concrete.WriterMessage
+@{
+    ViewData["Title"] = "SendMessage";
+    Layout = "~/Views/Shared/_WriterLayout.cshtml";
+}
+
+<form class="form-group" method="post" >
+    <h4>Yeni Mesaj</h4>
+    <br />     
+    @Html.Label("Alıcı Mail")
+    @Html.TextBoxFor(x => x.Receiver, new { @class = "form-control" })
+    @Html.Label("Mesajın Konusu")
+    @Html.TextBoxFor(x => x.Subject, new { @class = "form-control" })
+    @Html.Label("Mesajın İçeriği")
+    @Html.TextAreaFor(x => x.Content, 10, 3, new { @class = "form-control" })
+    <br />
+	<b><button class="btn btn-primary">Gönder</button></b>
+     <button type="button" class="btn btn-google" onclick="history.back()">Geri</button>
+</form>
